@@ -21,6 +21,6 @@ export class SurveyThumbnailComponent implements OnInit {
   }
 
   onRemoveClick() {
-    this.surveyService.removeSurveyByName(this.survey.id);
+    this.surveyService.removeSurveyById(this.survey.id);
   }
 }

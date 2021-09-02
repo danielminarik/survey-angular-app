@@ -77,7 +77,7 @@ export class SurveyService {
     return this.surveys.find(x => x.id == id);
   }
 
-  removeSurveyByName(id: number) {
+  removeSurveyById(id: number) {
     let survey = this.getSurveyById(id);
     this.surveys.splice(this.surveys.indexOf(survey), 1);
   }
