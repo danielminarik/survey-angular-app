@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.question-container {
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: stretch;
+}
+
+.header {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subheader {
+    padding-left: 30px;
+    font-size: 11pt;
+    color: #808080
+}
+
+.button-footer {
+    margin: 20px;
+    width: 100%;
+}

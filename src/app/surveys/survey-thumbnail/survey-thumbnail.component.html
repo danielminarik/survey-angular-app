@@ -1,0 +1,10 @@
+<div [routerLink]="['/surveys', survey.id]" class="container">
+    <div class="details">
+        <h3>{{survey.name}}</h3>
+        <p>This survey has {{survey.questions.length}} question(s).</p>
+    </div>
+    <div class="buttons-group">
+        <button class="btn btn-primary" (click)="onEditClick()">Edit</button>
+        <button class="btn btn-default" (click)="onRemoveClick()">Remove</button>
+    </div>
+</div>

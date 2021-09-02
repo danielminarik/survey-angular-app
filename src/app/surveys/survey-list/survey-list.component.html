@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="header">
+        <h1>List of surveys</h1>
+        <button class="btn btn-primary" (click)="onAddClick()">Add</button>
+    </div>
+    <div class="survey-container">
+        <app-survey-thumbnail
+            *ngFor="let survey of surveys"
+            [survey]="survey">
+        </app-survey-thumbnail>
+    </div>
+</div>
